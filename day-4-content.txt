@@ -1,0 +1,19 @@
+             content of day-4
+s.upper
+s.lower() or s.casefold()
+s.capitalize()
+s.replace('h'a')
+s.strip()
+s.split() s.split(:) s.split(:) s.split('a')
+s.center(31.) s.center(width,fillchar)
+      Will fix total length then fix string in center and fill Other empty spaces with fillchar
+s.count('a')
+s.count('a'5.len(s)) ----- 5-beginnin
+      g and till end of str it will checked
+s.endswith('a.o.len(s)) - 1 check string ends with a or not
+s.find('a.o.len(s)) --- check a and returns index value
+    of first occurrence of
+s.index('a'7.len(s)) frm 7 to end where a there returns First occurrence of that characters index
+****Mutable vs Immutable
+mutable can be changed after creation like list,set,dictionary
+immutable means cant be changed after creation like int ,double,float,tuple.
