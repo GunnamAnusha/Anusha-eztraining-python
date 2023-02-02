@@ -1,0 +1,39 @@
+python is famous in the market and it is called as language of future.
+it supports current technologies and upcoming technologies.
+
+Medium:-
+idle-integrated development learning environment,jupyter notebook,anaconda,thony,ps code.
+
+UNICODE:-
+print(chr()+chr())
+
+Data types:-
+1.Numerical data type:
+   a.integer
+   b.float
+   c.complex
+2.Boolean data type:
+   a.True(1)
+   b.False(0)
+3.Sequence data type:-
+   a.String
+   b.List
+   c.Tuple
+   d.dictionary
+4.Set
+
+TYPE CONVERTION:
+  Converting 1 data type into another data type.
+ex: int(35.6)
+       35
+Isinstance(): checks the data type and return boolean value.
+
+Operators precedence and Associativity Law:-
+  1.Every operator has its own priority.
+  2.we can use BODMAS RULE.
+  3.if there is same priority operators present in expression evalution happens left to right except assignment operator(=) which evaluates from right to left.
+ 
+QUESTION:
+  Take 3 integers,3 float,2 string and 1 complex num as input and print the same on the screen.
+  note:use formated output.
+
