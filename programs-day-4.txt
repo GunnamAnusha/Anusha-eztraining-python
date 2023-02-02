@@ -1,0 +1,185 @@
+**dict-comprehension
+1))d={n:n*n for n in range (1,5)}
+print (d)
+#CALCULATING PRODUCT PRICE for 5 units
+old={'rice': 60,' dhaal': 120, 'oil':150}
+ new ={product:price*5 for (product, price) in
+old. items () }
+print (new)
+#WITH CHECKS
+real={'sam' :24, 'angel':18, 'kumar':35}
+ now={name: age for (name, age) in real.items()
+if age>20}
+print (now)
+output:
+{1: 1, 2: 4, 3: 9, 4: 16}
+{'rice': 300, 'dhaal': 600, 'oil': 750}
+{'sam': 24, 'kumar': 35}
+
+2))import random
+cust=["sam","ram","prabhu","henrik","sjeoy","raghu","anil" ,"liya"]
+cust_dict= {names:random.randint(1,100) for names in cust}
+print(cust_dict)
+o/p:{'sam': 56, 'ram': 50, 'prabhu': 42, 'henrik': 68, 'sjeoy': 44, 'raghu': 74, 'anil': 21, 'liya': 7}
+
+3))l1=['a','b','c']
+l2=[1,2,3]
+d={a:b for (a,b) in zip(l1,l2)}
+print(d)
+o/p:{'a': 1, 'b': 2, 'c': 3}
+
+4))import random
+stu=list(map(str,input("enter names:").split()))
+marks=[]
+for i in range(len(stu)):
+    a=(random.randint(300,500)/500)*100
+    marks.append(a)
+my_dict={x:y for(x,y) in zip(stu,marks)}
+print(my_dict)
+o/p:enter names:anu ram abhi bunny banti
+{'anu': 99.6, 'ram': 67.4, 'abhi': 67.0, 'bunny': 66.8, 'banti': 88.4}
+
+5))#n="hi i'am' "anusha""
+error
+"""n="hii i'am"
+print(n)"""
+o/p:hii i'am
+#n='hi i'am anu'
+m='hi i\'am'
+print(m)
+o/p:hi i'am
+
+6))s="Anusha kalyani  buddies"
+s.lower()
+'anusha kalyani  buddies'
+s.upper()
+'ANUSHA KALYANI  BUDDIES'
+s.casefold()
+'anusha kalyani  buddies'
+s.replace('s','y')
+'Anuyha kalyani  buddiey'
+s.strip()
+'Anusha kalyani  buddies'
+s.split()
+['Anusha', 'kalyani', 'buddies']
+s.split(',')
+['Anusha kalyani  buddies']
+s.split('a')
+['Anush', ' k', 'ly', 'ni  buddies']
+s.center(20,'&')
+'Anusha kalyani  buddies'
+s.center(3,'*')
+'Anusha kalyani  buddies'
+k="amma"
+k.center(31,'*')
+'**************amma*************
+k="amma"k.count('a')
+2
+k.count('a',5,len(k))
+0
+s="Anusha"
+s.islower()
+False
+s.isupper()
+False
+s.istitle()
+True
+s.rfind('a',0,len(s))
+5
+7))x
+20
+id(x)
+1591637967696
+r=200
+r=r+r
+r
+400
+id(r)
+1591673811120
+l=[1,2,3,4]
+l.append(4)
+l
+[1, 2, 3, 4, 4]
+id(l)
+1591675024512
+l.append(6)
+l
+[1, 2, 3, 4, 4, 6]
+id(l)
+1591675024512
+
+8))#first idea
+"""s1=input("enter your 1st string:")
+s2=input("enter your character:")
+if s2 in s1:
+    print("your string contains that character")
+else:
+    print("not in that string")"""
+
+#second idea
+"""st=input("enter your string:")
+char=input("enter req char:")
+a="yes"if char in st else no
+print(a)"""
+
+#third idea
+s=input ("Enter: ")
+char=input()
+for i in s:
+   if i==char:
+      flag=1
+      break
+  else:
+      
+     flag=0
+if flag==1:
+    print ("present")
+else:
+    print ("not present")
+
+9))s=input("enter your string:")
+if (s==s[::-1]):
+    print("its a palindrome")
+else:
+    print("not a palindrome")
+o/p:enter your string:mam
+its a palindrome
+
+
+10))s=input("enter your string:")
+c=0
+for i in s:
+    if i==" ":
+        c+=1
+print(c)
+o/p:enter your string:anu sha eef ffg
+3
+
+
+11))s=input("enter your string:")
+l=['a','e','i','o','u']
+c=0
+for i in l:
+    if i in s:
+        c+=1
+print(c)
+o/p:enter your string:anusha
+2
+
+12))#math module
+import math
+print("ceil 12.5:",math.ceil(12.5))
+print("floor 12.5:",math.floor(12.5))
+print("sqrt 345:",math.sqrt(345))
+print("factorial 3:",math.factorial(3))
+print("power 2,3:",math.pow(2,3))
+print("remainder 10,3:",math.fmod(10,3))
+a,b=divmod(10,3)
+print(a,b)
+o/p:ceil 12.5: 13
+floor 12.5: 12
+sqrt 345: 18.57417562100671
+factorial 3: 6
+power 2,3: 8.0
+remainder 10,3: 1.0
+3 1
