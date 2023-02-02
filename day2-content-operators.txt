@@ -1,0 +1,35 @@
+OPERATORS:
+1.Arithemetic Operators:
+     +,-,*,|,||,%
+
+2.Relational/comparison Operators:
+    >,>=,<,<=,==,!=
+
+3.Logical Operators:
+    AND,OR<NOT
+
+4.Bitwise Operators:
+    0's and 1's
+    some operations if you do like dz it will be faster like-compressing data.
+    sending data in network to network 0-1 (or) ON-OFF (or) TRUE-FALSE.
+
+Bitwise AND
+Bitwise OR
+Bitwise NOT(1's complimentary)
+Bitwise XOR
+Left shift
+Right shift
+
+QUESTIONS:
+
+1.print filled triangle
+2.print hallow heart
+3.print frog
+
+CONDITIONAL STATEMENTS:-
+    1.simple IF
+    2.IF ELSE
+    3.ELSE IF
+    4.ELSE IF LADDER
+    5.NESTED IF
+
