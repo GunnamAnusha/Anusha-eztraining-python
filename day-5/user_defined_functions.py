@@ -14,6 +14,8 @@ sample()"""
   return prod
 res=multi()
 print(res)"""
+
+
 #with argument and with return ##static input
 """def multi(n1,n2,n3)
     prod=n1*n2*n3
