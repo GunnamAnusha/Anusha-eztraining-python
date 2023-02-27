@@ -1,0 +1,40 @@
+Polymorphism
+one item used for different purpose
+Types
+1.overloading
+a.operator overloading
+b.method overloading
+2.overriding
+Overriding
+if a method is defective or cannot be used inside derived class it take it from its base class or parent class
+
+DATA STRUCTURES
+->Helps to write efficient programs
+->Linear -arrary,linkedlist,stack,queue,matrix
+->Non linear-binary tree,heap,graph,hashtable
+linear-sorting data sequentially
+non linear-no sequential style
+
+static- size cannot be changed array
+dynamic- size can be changed list,stack,queue
+
+Linked list
+ex:train
+DEF:As the name says list of items which are linked with one another is called as linked list
+Types:single/singly
+double/doubly
+circular
+
+Creating linked list:
+Step-1:create the node
+Step-2:partition the node wit two segments data&none
+Step-3:add value into the blank node
+Step-4:mark the node as head
+Step-5:create the next node by following the above steps
+Step-6:establish link between 1st &2nd node
+Displaying linked list:
+traversal is required from 1st nodetill tail node in order to display existing linked list
+Operations:
+1.insert
+2.delete
+3.search
